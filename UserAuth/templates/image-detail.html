@@ -1,0 +1,19 @@
+<!-- search.html -->
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Image detail</title>
+      
+  </head>
+  <body>
+    <ul>
+    
+    <h3>{{ title }}</h3>
+    <li><img src="{{ image.url }}" alt="{{ image }}"></li>
+    <p>{{ description }}</p>
+    </ul>
+  </body>
+</html>
